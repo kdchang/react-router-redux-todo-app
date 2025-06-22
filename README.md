@@ -6,7 +6,7 @@ A todo application built with React, React Router, Redux, and Vite.
 
 This project is automatically deployed to GitHub Pages using GitHub Actions.
 
-Live demo: `https://[username].github.io/react-router-redux-todo-app`
+Live demo: `https://kdchang.github.io/react-router-redux-todo-app`
 
 ## Development
 
