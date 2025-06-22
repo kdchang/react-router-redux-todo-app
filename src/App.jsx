@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename="/react-router-redux-todo-app">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

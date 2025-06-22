@@ -26,7 +26,11 @@ jobs:
       - name: Build
         run: npm run build
       - name: Verify build output
-        run: ls -la ./dist
+        run: |
+          ls -la ./dist
+          echo "=== Checking index.html content ==="
+          cat ./dist/index.html
+          echo "=== End of index.html ==="
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
